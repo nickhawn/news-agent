@@ -1,0 +1,8 @@
+{
+  "python_version": "3.11",
+  "env": ".env",
+  "dependencies": ["."],
+  "graphs": {
+    "news_agent": "./src/news_agent/news_agent.py:news_agent"
+  }
+}
