@@ -41,3 +41,16 @@ You can ask the agent things like:
 - "Summarize the latest from TechCrunch"
 
 The agent should learn your preferences over time and you provide feedback and provide increasingly personalized results. 
+
+
+## Demo
+
+### Agent Graph Structure
+![News Agent Graph](docs/news_agent_graph.png)
+
+The news agent uses a LangGraph workflow that includes web crawling tools, content curation, and a feedback loop for learning user preferences.
+
+### Memory and Personalization
+![News Agent Memory](docs/news_agent_memory.png)
+
+The agent maintains separate memory profiles for news source preferences and content preferences, allowing it to provide increasingly personalized results over time.
