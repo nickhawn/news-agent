@@ -19,7 +19,6 @@ The agent uses [Tavily](https://www.tavily.com/) for web crawling and OpenAI GPT
    ```bash
    uv sync
    ```
-```
 
 ## Environment Setup
 
